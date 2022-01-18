@@ -1,0 +1,6 @@
+0000000000000000000000000000000000000000 98fbd272da80d2e5977fa54acd181443a65638e2 Jonathan Baker <jbaker7@loungeport.net> 1642384598 +0100	commit (initial): first commit
+98fbd272da80d2e5977fa54acd181443a65638e2 0000000000000000000000000000000000000000 Jonathan Baker <jbaker7@loungeport.net> 1642384609 +0100	Branch: renamed refs/heads/main to refs/heads/main
+98fbd272da80d2e5977fa54acd181443a65638e2 98fbd272da80d2e5977fa54acd181443a65638e2 Jonathan Baker <jbaker7@loungeport.net> 1642384609 +0100	Branch: renamed refs/heads/main to refs/heads/main
+98fbd272da80d2e5977fa54acd181443a65638e2 6c80b1ac26d750c2773203d41290af317dc56cd5 Jonathan Baker <jbaker7@loungeport.net> 1642405561 +0100	commit: fixed incorrect icon filenames
+6c80b1ac26d750c2773203d41290af317dc56cd5 4f62189639f530c2977bf334274b027bb82a07a2 Jonathan Baker <jbaker7@loungeport.net> 1642449150 +0100	commit: fixed bug preventing line updates, updated styles
+4f62189639f530c2977bf334274b027bb82a07a2 9528b10df6fa42e2cd9d305f55c4773893567539 Jonathan Baker <jbaker7@loungeport.net> 1642452906 +0100	commit: Updated more styles, fixed app title

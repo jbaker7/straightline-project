@@ -1,0 +1,189 @@
+.line-overview {
+    padding: 0rem 1rem;
+}
+
+.line-overview .new-file-button {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid #aaa;
+    border-radius: 1rem;
+    background-color: #fff;
+    color: #333;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: 'Lato';
+    text-transform: uppercase;
+    width: 100%;
+    cursor: pointer;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.line-overview .new-file-button img {
+    max-height: 1.1rem;
+    margin-right: 0.3rem;
+}
+
+.line-overview .new-file-button:hover {
+    border: 1px solid #35B77B;
+    box-shadow: 0 0 5px 1px #2C9E6Daa;
+}
+
+.line-overview .calculate-button {
+    border: 0;
+    border-radius: 1rem;
+    background-color: #35B77B;
+    color: #fff;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    width: 100%;
+    cursor: pointer;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.line-overview .calculate-button:hover {
+    background-color: #30AB76;
+    box-shadow: 0 0 5px 1px #2C9E6Daa;
+}
+
+.line-overview .calculate-button:active {
+    background-color: #248259;
+    box-shadow: 0 0 5px 1px #2C9E6Daa;
+}
+
+.line-overview .line-score {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #35B77B;
+    border-radius: 1rem;
+    background-color: #F9FBFA;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.line-overview .line-score h3 {
+    color: #888;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin: 0 0 0.2rem 0;
+}
+
+.line-overview .line-score img {
+    max-height: 4.5rem;
+    margin: auto;
+    filter: drop-shadow(2px 2px 4px #00000077);
+}
+
+.line-overview .line-score .score-text {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+.line-overview .score-graph {
+    max-height: 4rem;
+    display: block;
+}
+
+.line-overview .score-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.line-overview .circle-bg {
+    stroke: #E3E6E4;
+    fill: none;
+    stroke-width: 4.2;
+}
+
+.line-overview .circle {
+    fill: none;
+    stroke-width: 4;
+    animation: progress 1s ease-out forwards;
+}
+  
+@keyframes progress {
+    0% {
+      stroke-dasharray: 0 100;
+    }
+}
+
+.line-overview .distance-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.line-overview .distance {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: min-content 1fr min-content;
+    column-gap: 0.5rem;
+    grid-template-areas: 
+        "header header header"
+        "number number icon"
+        "unit unit icon";
+    background-color: #F9FBFA;
+    border: 1px solid #35B77B;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.7rem;
+    font-size: 2rem;
+}
+
+.line-overview .distance h3 {
+    grid-area: header;
+    color: #888;
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+.line-overview .distance span {
+    display: flex;
+    grid-area: number;
+    align-items: center;
+    font-weight: bold;
+    padding: 0;
+}
+
+.line-overview .distance img {
+    display: inline-block;
+    grid-area: icon;
+    margin: auto;
+    max-height: 3.5rem;
+}
+
+.line-overview .distance .unit-type {
+    grid-area: unit;
+    color: #888;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 750px) { 
+    .line-overview .line-score {
+        flex-direction: column;
+    }
+
+    .line-overview .line-score img {
+        max-height: 4.5rem;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 500px) { 
+    .line-overview .distance img {
+        display: none;
+    }
+}

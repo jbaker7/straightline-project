@@ -1,0 +1,44 @@
+.scoring-details {
+    max-width: 50vw;
+    max-height: 80vh;
+    font-size: 1.1rem;
+    font-family: 'Lato';
+    padding: 1rem;
+    line-height: 1.4rem;
+}
+
+.scoring-details ul {
+    margin: 0 0 0 0.5rem;
+    padding: 0;
+}
+
+.scoring-details .score-type {
+    font-weight: bold;
+}
+
+.scoring-details li {
+    margin-bottom: 1rem;
+}
+
+.scoring-details li div {
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.scoring-details .close-button {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem auto;
+    cursor: pointer;
+    border: 0;
+    background: none;
+    font-weight: bold;
+    font-size: 1.4rem;
+    font-family: 'Lato';
+    color: #000;
+}
+
+.scoring-details .close-button img {
+    height: 1.4rem;
+    margin-right: 0.5rem;
+}

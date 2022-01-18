@@ -1,0 +1,6 @@
+<svg viewBox="0 0 110 110" width="110px" height="110px" xmlns="http://www.w3.org/2000/svg">
+  <defs></defs>
+  <ellipse cx="55" cy="55" rx="47" ry="47" style="stroke: rgb(50, 171, 114); stroke-width: 4px; fill: none;"></ellipse>
+  <line x1="55" y1="23" x2="55" y2="87" style="stroke-linecap: round; stroke-width: 4px; stroke: rgb(50, 171, 114);"></line>
+  <line x1="23" y1="55" x2="87" y2="55" style="stroke: rgb(50, 171, 114); stroke-linecap: round; stroke-width: 4px;"></line>
+</svg>
